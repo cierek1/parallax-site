@@ -254,6 +254,36 @@ p {
   color: #000;
 }
 
+/* line 1, ../sass/components/_posts.scss */
+.blog-posts {
+  text-align: center;
+  height: 460px;
+}
+/* line 5, ../sass/components/_posts.scss */
+.blog-posts .post {
+  padding: 20px 20px 0;
+  border: 1px solid #eee;
+  background-color: white;
+  position: relative;
+}
+/* line 11, ../sass/components/_posts.scss */
+.blog-posts .post h4 {
+  font-size: 2.6rem;
+  margin-bottom: 2rem;
+}
+/* line 16, ../sass/components/_posts.scss */
+.blog-posts .post-1 {
+  transform: translate(120px, 20px);
+}
+/* line 20, ../sass/components/_posts.scss */
+.blog-posts .post-2 {
+  z-index: 10;
+}
+/* line 24, ../sass/components/_posts.scss */
+.blog-posts .post-3 {
+  transform: translate(-120px, 20px);
+}
+
 /* line 1, ../sass/layout/_header-home.scss */
 .bird-box {
   position: relative;
